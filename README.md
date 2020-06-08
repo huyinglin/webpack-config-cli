@@ -1,2 +1,2 @@
 # webpack构建包
-webpack   
+webpack
