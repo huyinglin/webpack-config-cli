@@ -1,28 +1,17 @@
-# 语言是 Node.js
 language: node_js
 
-# 使用缓存，
 cache:
   apt: true
   directories:
     - node_modules
 
-# Node.js 的版本
 node_js: stable
 
-# 安装依赖
 install:
-	# 进入到这一节目录
-  - cd ./chapter7/webpack-setting-demo
-	# 安装依赖
-  - npm install -D
-	# 进入到测试项目文件夹
+  - npm install -S
   - cd ./test/smoke/template
-	# 安装依赖
-  - npm install -D
-	# 重新回到 webpack-setting-demo 根目录
+  - npm install -S
   - cd ../../../
 
-# 执行 测试命令
 script:
   - npm run test
