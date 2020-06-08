@@ -1,2 +1,2 @@
-# webpack-config-cli
-webpack构建包
+# WebpackPlayground
+Study Webpack
