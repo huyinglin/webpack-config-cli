@@ -18,8 +18,7 @@
     "test": "npm run test:smoke && npm run test:cover",
     "test:smoke": "node ./test/smoke/index.js",
     "test:unit": "istanbul cover mocha",
-    "test:cover": "istanbul cover ./node_modules/.bin/_mocha",
-    "changelog": ""
+    "test:cover": "istanbul cover ./node_modules/.bin/_mocha"
   },
   "author": "",
   "license": "ISC",
