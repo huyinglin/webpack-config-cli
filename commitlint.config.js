@@ -1,4 +1,5 @@
 module.exports = {
+  // The rules are defined on https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional
 	parserPreset: 'conventional-changelog-conventionalcommits',
 	rules: {
 		'body-leading-blank': [1, 'always'],
