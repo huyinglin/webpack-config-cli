@@ -18,7 +18,8 @@
     "test": "npm run test:smoke && npm run test:cover",
     "test:smoke": "node ./test/smoke/index.js",
     "test:unit": "istanbul cover mocha",
-    "test:cover": "istanbul cover ./node_modules/.bin/_mocha"
+    "test:cover": "istanbul cover ./node_modules/.bin/_mocha",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "author": "",
   "license": "ISC",
@@ -44,6 +45,7 @@
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
+    "conventional-changelog-cli": "^2.0.34",
     "css-loader": "^3.4.2",
     "cz-conventional-changelog": "^3.2.0",
     "eslint": "^6.8.0",
