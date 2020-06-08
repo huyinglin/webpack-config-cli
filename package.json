@@ -18,7 +18,8 @@
     "test": "npm run test:smoke && npm run test:cover",
     "test:smoke": "node ./test/smoke/index.js",
     "test:unit": "istanbul cover mocha",
-    "test:cover": "istanbul cover ./node_modules/.bin/_mocha"
+    "test:cover": "istanbul cover ./node_modules/.bin/_mocha",
+    "changelog": ""
   },
   "author": "",
   "license": "ISC",
@@ -45,6 +46,7 @@
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
+    "cz-conventional-changelog": "^3.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -90,5 +92,10 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
