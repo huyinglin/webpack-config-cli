@@ -1,2 +1,1 @@
-# WebpackPlayground
-Study Webpack
+# webpack构建包
